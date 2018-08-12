@@ -54,7 +54,7 @@ explains (3).
 6. It has been noticed that the general rules given in (2) and (3) are not hard and fast. For the same number of datapoints, kd-tree is seen much efficient at very high dimensions.
 
 ## Timing Results: ##
-(W2V dimension = 50) Brute Force = 2.16 seconds; kd-tree = 4.06 seconds
+(W2V dimension = 50) Brute Force = 2.16 seconds; kd-tree = 4.06 seconds <br/>
 (W2V dimension = 500) Brute Force = 26.55 seconds; kd-tree = 25.14 seconds.
 
 **Reason:** The performance may depend a lot on the characteristics of the data. For example, are the data points evenly distributed, clustered or otherwise arranged?
